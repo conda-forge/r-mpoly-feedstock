@@ -1,11 +1,11 @@
-About r-mpoly
-=============
+About r-mpoly-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mpoly-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dkahle/mpoly
 
 Package license: GPL-2
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mpoly-feedstock/blob/main/LICENSE.txt)
 
 Summary: Symbolic computing with multivariate polynomials in R.
 
