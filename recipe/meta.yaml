@@ -1,4 +1,4 @@
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mpoly_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mpoly/mpoly_{{ version }}.tar.gz
-  sha256: 201e77e3913f637482e4d82a8a6a6e628d4ffc7660f6c1310b6a0aa167323a82
+  sha256: dbef5aff839d567c5a7e697dfb70f116832501aec79364779caf827796b50cca
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
